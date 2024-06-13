@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Wbsite With Tailwind CSS</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <div
+        class="container min-h-screen text-white bg-[url('images/backgroundimage.avif')] bg-cover bg-center bg bg-no-repeat w-full px-10">
+        <nav>
+            <div class="flex items-center">
+                <img class="w-20 cursor-pointer ml-10 mt-1" src="images/logo.png" alt="">
+
+                <ul class="flex-1 ms-56 items-center justify-around">
+                    <li class="list-none inline-block hover:bg-orange-400 duration-300 rounded text-center p-4 text-base ms-20"><a
+                            class="no-underline" href="">Home</a></li>
+
+                    <li class="list-none inline-block  hover:bg-orange-400 duration-300 rounded text-center p-4 text-base  ms-28"><a
+                            class="no-underline" href="">About</a></li>
+
+                    <li class="list-none inline-block  hover:bg-orange-400 duration-300 rounded text-center p-4 text-base  ms-28"><a
+                            class="no-underline" href="">Features</a></li>
+
+                    <li class="list-none inline-block hover:bg-orange-400 duration-300 rounded text-center p-4 text-base  ms-28"><a
+                            class="no-underline" href="">Contact</a></li>
+                </ul>
+
+                <div>
+                    <img class="w-16 rounded-full mr-10" src="./images/cart.gif" alt="">
+                </div>
+            </div>
+
+            <hr>
+        </nav>
+
+        <div class="container min-h-screen flex justify-around items-center">
+
+            <div class="px-10">
+                <div class="max-w-96 bg-transparent border-double border-4 border-orange-500">
+
+                    <img class="max-w-96" src="./images/burger.png" alt="">
+
+                </div>
+            </div>
+
+            <div class="px-10 text-center">
+                <h1 class="text-8xl font-bold"><span class="font-extrabold text-orange-500">W</span>ell f<span
+                        class="font-extrabold text-orange-500">OO</span>die</h1>
+
+                <h2 class="text-2xl mt-10 font-bold">Delivery in 15 mins</h2>
+
+                <p class="m-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero a sapiente maxime odit
+                    repellat, officia tempora similique ducimus, quis animi voluptatum! Ullam porro quos temporibus
+                    perspiciatis, doloribus maxime odio nobis!</p>
+
+                <div>
+                    <button
+                        class="bg-orange-500 cursor-pointer p-5 m-5 rounded text-black font-bold hover:bg-transparent hover:border-orange-500 hover:text-white duration-300 hover:border border border-transparent">
+                        <a href="">Order Now</a>
+                    </button>
+                    <button class="bg-transparent cursor-pointer p-5 m-5 rounded text-white font-bold
+                    border-orange-500  hover:bg-orange-500 hover:text-black duration-300  border">
+                        <a href="">Download App</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
